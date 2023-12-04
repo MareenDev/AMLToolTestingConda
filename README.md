@@ -11,13 +11,18 @@
    conda activate envART
    ```
    
-3. Set up local repository using pip (already installed in miniconda and conda)
+3. Get local repositoy
+   ```
+   git clone https://github.com/MareenDev/AMLToolTestingConda.git
+   ```
+   
+4. Set up local repository using pip (already installed in miniconda and conda)
    
    ```
    pip install -r requirements.txt
    pip install -v -e .
    ```
-4. Install further packages (toBeChecked)
+5. Install further packages (toBeChecked)
    e.g. scipy
    ```
     conda install scipy=0.15.0
